@@ -1,0 +1,72 @@
+.topDiv {
+  height: 715px;
+  background-color: var(--fb-bg-color);
+  .itemSection {
+    max-width: 900px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 175px 0px 0px 0px;
+    gap: 50px;
+
+    .leftItem {
+      .leftItems {
+        .logoSection {
+          img {
+            width: 300px;
+            transform: translate(-33px, 10px);
+          }
+        }
+        .textSection {
+          h2 {
+            font-size: 33px;
+            font-family: SFProDisplayR;
+            line-height: 32px;
+            font-weight: 500;
+           
+          }
+        }
+      }
+    }
+
+    .rightItem {
+      border: 1px solid red;
+      box-shadow: var(--fd-shadow-color);
+      border-radius: 10px;
+      padding: 25px;
+      display: grid;
+      width: 350px;
+
+      .rightItems {
+        .fromSection {
+          form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            input{
+                padding: 10px;
+            }
+          }
+        }
+        .forgetPass {
+          a {
+          }
+        }
+        .hrTagg {
+          hr {
+          }
+        }
+        .createAccountBtn {
+          button {
+          }
+        }
+        .createPages {
+          h6 {
+            a {
+            }
+          }
+        }
+      }
+    }
+  }
+}

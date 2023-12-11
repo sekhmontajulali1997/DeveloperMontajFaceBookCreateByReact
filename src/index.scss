@@ -1,0 +1,88 @@
+:root{
+    --fb-bg-color: #f0f2f5;
+    --fb-Primary-color: #1877f2;
+    --fb-Secondary-color: #42b72a;
+    --fd-shadow-color: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+   
+
+}
+
+// font 
+
+@font-face{
+    font-family: SFProDisplayB;
+    src: url(./src/font/B.ttf);
+ 
+
+}
+@font-face{
+    font-family: SFProDisplayI;
+    src: url(./src/font/I.ttf);
+ 
+
+}
+@font-face{
+    font-family: SFProDisplayLi;
+    src: url(./src/font/Li.ttf);
+ 
+
+}
+@font-face{
+    font-family: SFProDisplayM;
+    src: url(./src/font/M.ttf);
+ 
+
+}
+@font-face{
+    font-family: SFProDisplayQ;
+    src: url(./src/font/Q.ttf);
+ 
+
+}
+@font-face{
+    font-family: SFProDisplayR;
+    src: url(./src/font/R.ttf);
+ 
+
+}
+@font-face{
+    font-family: SFProDisplaySb;
+    src: url(./src/font/Sb.ttf);
+ 
+
+}
+@font-face{
+    font-family: SFProDisplaTi;
+    src: url(./src/font/Ti.ttf);
+ 
+
+}
+@font-face{
+    font-family: SFProDisplayUli;
+    src: url(./src/font/Uli.ttf);
+ 
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
+span{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+input:focus{
+    outline: none;
+}
