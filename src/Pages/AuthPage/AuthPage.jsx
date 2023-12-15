@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import MetaTag from "../../Metatag/MetaTag";
+import MetaTag from "../../Components/Metatag/MetaTag";
 import "./AuthPage.scss";
-
 const AuthPage = () => {
   return (
     <>
@@ -51,13 +50,16 @@ const AuthPage = () => {
             </div>
 
             <div className="createPages">
-              <h6>
-                {" "}
-                <Link to="#">Create a Page</Link> for a celebrity, brand or
+
+              <h4>
+               
+                <Link to="#"> Create a Page </Link> for a celebrity, brand or
                 business.
-              </h6>
+              </h4>
             </div>
           </div>
+
+         
         </div>
       </div>
     </>

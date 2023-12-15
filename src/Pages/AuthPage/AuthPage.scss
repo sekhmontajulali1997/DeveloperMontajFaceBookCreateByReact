@@ -23,47 +23,81 @@
             font-family: SFProDisplayR;
             line-height: 32px;
             font-weight: 500;
-           
           }
         }
       }
     }
 
     .rightItem {
-      border: 1px solid red;
-      box-shadow: var(--fd-shadow-color);
-      border-radius: 10px;
-      padding: 25px;
-      display: grid;
-      width: 350px;
-
       .rightItems {
+        border: 1px solid red;
+        box-shadow: var(--fd-shadow-color);
+        border-radius: 10px;
+        padding: 25px;
+        display: grid;
+        width: 350px;
         .fromSection {
           form {
             display: flex;
             flex-direction: column;
             gap: 10px;
-            input{
-                padding: 10px;
+            input {
+              padding: 15px;
+              border-radius: 6px;
+              border: 1px solid red;
+              color: black;
+            }
+            button {
+              @extend input;
+              background-color: var(--fb-Primary-color);
+              color: #fff;
+              font-size: 20px;
+              padding: 10px 0px;
             }
           }
         }
         .forgetPass {
+          text-align: center;
+          margin: 12px 0px;
+
           a {
+            color: var(--fb-Primary-color);
+            font-family: SFProDisplayR;
+            font-size: 16px;
           }
         }
         .hrTagg {
+          margin: 20px 0px;
           hr {
+            height: 1px;
           }
         }
         .createAccountBtn {
+          text-align: center;
+
           button {
+            background-color: var(--fb-Secondary-color);
+            color: #fff;
+            font-size: 20px;
+            padding: 10px 10px;
+            border-radius: 8px;
+            border: 1px solid red;
           }
         }
-        .createPages {
-          h6 {
-            a {
-            }
+       
+      }
+
+      .createPages {
+        text-align: center;
+        margin: 25px auto;
+
+        h4 {
+          font-size: 14px;
+          font-family: SFProDisplayR;
+        
+
+          a{
+           color: red;
           }
         }
       }

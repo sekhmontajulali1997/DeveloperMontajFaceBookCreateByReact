@@ -1,4 +1,5 @@
-import MetaTag from '../../Metatag/MetaTag'
+
+import MetaTag from '../../Components/Metatag/MetaTag'
 import './Home.scss'
 
 const Home = () => {
